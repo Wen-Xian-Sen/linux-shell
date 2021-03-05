@@ -15,7 +15,7 @@ do
 	if [ $size -gt 10485760 ]
 	then
 		echo "delete $file"
-		rm -rf $file
+		rm -rf ${dir}${file}
 	fi
 done
 
